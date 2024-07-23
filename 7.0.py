@@ -246,5 +246,6 @@ def myFunc(x):
         return True
 adults = filter(myFunc, ages)
 for x in adults:
-    print(x)
+    # print(x)
+
     print(list(adults))

@@ -1,6 +1,6 @@
 # (a)
-# list_3 = [x*x*x for x in range(11,22)]
-# print(list_3)
+list_3 = [x**3 for x in range(11,22)]
+print(list_3)
 
 # (b) 
 # list_4=[]
@@ -16,9 +16,9 @@
 # print(list_5)
 
 # (d)
-n= int(input("Please enter a positive integer: "))
-nfactors = [x for x in range(1, n + 1) if n % x == 0]
-print("Factors of", n, ":", nfactors)
+# n= int(input("Please enter a positive integer: "))
+# nfactors = [x for x in range(1, n + 1) if n % x == 0]
+# print("Factors of", n, ":", nfactors)
 
 # (e)
 # L = [x for x in range(20) if x not in [12, 8, 3, 17]]
