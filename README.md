@@ -1,0 +1,1 @@
+This folder contains my completed solutions for all the assignments required to successfully complete this course.
